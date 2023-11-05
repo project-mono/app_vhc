@@ -1,0 +1,39 @@
+name: app_vhc
+description: Prototype of AI Camera App
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  go_router: ^12.1.0
+  flutter_svg: ^2.0.9
+  permission_handler: ^11.0.1
+  provider: ^6.0.5
+
+  # not have a major version
+  camera: 0.10.5+5
+  flutter_fc: ^0.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - res/
+
+  fonts:
+    - family: Lora
+      fonts:
+        - asset: res/font_lora/Lora-Regular.ttf

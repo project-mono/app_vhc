@@ -1,0 +1,3 @@
+class AppLayoutReadyEvent {
+  const AppLayoutReadyEvent();
+}
